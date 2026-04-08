@@ -1,0 +1,20 @@
+{
+  "key.moderation.open_scan_gui": "Открыть сканирование",
+  "key.moderation.send_history": "Отправить history",
+  "key.moderation.warn_player": "Варнуть",
+  "category.moderation": "Модерация",
+
+  "text.moderation.scan_title": "Сканирование ников",
+  "text.moderation.found_count": "Найдено: %s",
+  "text.moderation.rescan": "Пересканировать",
+  "text.moderation.close": "Закрыть",
+  "text.moderation.copy": "Копировать",
+  "text.moderation.last_copied": "Последний скопированный: %s",
+
+  "text.moderation.badwords_title": "Черный список",
+  "text.moderation.badwords_words": "Слов в списке: %s",
+  "text.moderation.badwords_add": "Добавить",
+  "text.moderation.badwords_remove": "Удалить",
+  "text.moderation.badwords_clear": "Очистить",
+  "text.moderation.badwords_back": "Назад"
+}

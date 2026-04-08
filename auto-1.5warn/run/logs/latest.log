@@ -1,0 +1,19 @@
+[21:57:33] [main/WARN] (FabricLoader/Knot) Class path entries reference missing files: C:\Users\n1rkoz\Desktop\fabric-example-mod-26.1\build\classes\java\main - the game may not load properly!
+[21:57:33] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.18.6
+[21:57:33] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[21:57:33] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_INCOMPATIBLE_PRESELECTED cloth-config 14.0.126 {depends minecraft @ [>=1.20.5-]}, ROOT_FORCELOAD_SINGLE cloth-config 14.0.126]
+[21:57:33] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP cloth-config 14.0.126 {depends minecraft @ [>=1.20.5-]}]
+[21:57:33] [main/INFO] (FabricLoader/Resolution) Fix: add [], remove [], replace [[cloth-config 14.0.126] -> add:cloth-config 1 ([(-∞,∞)])]
+[21:57:33] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Replace mod 'Cloth Config v14' (cloth-config) 14.0.126 with any version that is compatible with:
+		 - minecraft 1.20.1
+More details:
+	 - Mod 'Cloth Config v14' (cloth-config) 14.0.126 requires version 1.20.5- or later of 'Minecraft' (minecraft), but only the wrong version is present: 1.20.1!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.18.6.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:202) ~[fabric-loader-0.18.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.18.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) ~[fabric-loader-0.18.6.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.18.6.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[?:?]

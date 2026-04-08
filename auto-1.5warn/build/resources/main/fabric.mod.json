@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "modid",
+	"version": "1.0.0",
+	"name": "Auto warn 1.5",
+	"description": "Мод который сканирует таб на наличие 1.5 ников, затем проверяет /history, и если нет активного варна, то сам выдает варн по 1.5!",
+	"authors": [
+		"n1rkoz"
+	],
+	"contact": {
+		"homepage": "https://vk.com/yousuicideme",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.legenda.ModerationClient"
+		]
+	},
+	"mixins": [
+		"modid.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

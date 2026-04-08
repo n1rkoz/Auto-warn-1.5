@@ -1,0 +1,20 @@
+{
+  "key.moderation.open_scan_gui": "Open scan",
+  "key.moderation.send_history": "Send history",
+  "key.moderation.warn_player": "Warn player",
+  "category.moderation": "Moderation",
+
+  "text.moderation.scan_title": "Nick scan",
+  "text.moderation.found_count": "Found: %s",
+  "text.moderation.rescan": "Rescan",
+  "text.moderation.close": "Close",
+  "text.moderation.copy": "Copy",
+  "text.moderation.last_copied": "Last copied: %s",
+
+  "text.moderation.badwords_title": "Blacklist",
+  "text.moderation.badwords_words": "Words in list: %s",
+  "text.moderation.badwords_add": "Add",
+  "text.moderation.badwords_remove": "Remove",
+  "text.moderation.badwords_clear": "Clear",
+  "text.moderation.badwords_back": "Back"
+}
